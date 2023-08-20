@@ -43,7 +43,20 @@ document.addEventListener('DOMContentLoaded', function () {
     
     function getUsersFromJson() {
         const jsonData = localStorage.getItem('data');
-        const data = JSON.parse(jsonData) || { users: [] };
+        const data = JSON.parse(jsonData) || { users: [
+            {
+                "username": "hvgupta17",
+                "password": "harshit@123"
+            },
+            {
+                "username": "test_user",
+                "password": "test@pwd"
+            },
+            {
+                "username": "test_user2",
+                "password": "hvg@12345"
+            }
+        ] };
         return data.users;
     }
     
