@@ -7,6 +7,6 @@
         {
             "username": "test_user",
             "password": "test@pwd"
-        },
+        }
     ]
 }
