@@ -8,6 +8,5 @@
             "username": "test_user",
             "password": "test@pwd"
         },
-        // Add more users as needed
     ]
 }
